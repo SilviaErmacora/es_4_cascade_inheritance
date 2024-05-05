@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+       <meta charset="utf-8"/>
+       <title>NAVBAR</title>
+       <style>
+
+            nav {
+               width: 99%;
+               height: 130px;
+               border: 0.5cap;
+               border-style: solid;
+               border-bottom-color: rgb(20, 202, 126);
+               border-top-color: rgb(46, 42, 42);
+               border-left-color: rgb(46, 42, 42);
+               border-right-color: rgb(46, 42, 42);
+               background-color:rgb(46, 42, 42);
+               font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+
+            h1 {
+               color: white;
+               font-size: 35px;
+               font: x-large;
+               padding: 30px;
+               display: inline;
+            }
+
+            .item {
+               color: white;
+               display: inline-flex;
+               font-size: 25px;
+               padding: 30px;
+            }
+
+            .link {
+               font-size: 25px;
+               color: white;
+               display: inline;
+               padding: 30px;
+            }
+
+            .dropdown {
+               background-color:rgb(57, 53, 53);
+               color: white;
+               font-size: 25px;
+               display: inline;
+               width: 200px;
+               height: 70;
+            }
+
+            .search {
+               display: inline-block;
+               padding: 10px 10px 10px 100px;
+            }
+
+            input{
+               width: 350px;
+               height: 70px;
+               border-radius: 8px;
+               font-size: 25px;
+            }
+
+            button {
+               width: 150px;
+               height: 70px;
+               font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+               font-size: 25px;
+               color: rgb(20, 202, 126);
+               background-color: rgb(47, 44, 44);
+               border-radius: 8px;
+               border-color: rgb(20, 202, 126);
+            }
+
+            button:hover{
+               background-color: rgb(20, 202, 126);
+               color: white;
+            }
+
+       </style>
+   </head>
+
+   <body>
+       <nav>
+            
+                   
+                <h1>NAVBAR</h1>
+
+                <h2 class="item">Home</h2> 
+
+                <a class="link" href="https://www.google.com">Link</a> 
+           
+
+         
+                <select class="dropdown" name="dropdown" id="dropdown">
+                    <option value="1">Dropdown</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>  
+            
+            
+
+            
+
+                <p class="item">Disabled
+                    <span>
+                       <search class="search">
+                           <input type="search" autofocus required minlength="3" maxlength="8"/>
+                           <button type="submit">Search</button>
+                       </search>
+                    </span>
+                </p>
+
+            
+
+        </nav>
+
+    </body>
+    
+</html>
