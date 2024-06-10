@@ -4,70 +4,51 @@
    <head>
        <meta charset="utf-8"/>
        <title>card</title>
-
        <style>
-
-           article {
+            article {
                display: flex;
                flex-direction: column;
                flex: 200px;
                padding: 1vw 1vw 1vw 1vw;
                text-align: justify;
                align-items: left;
-           }
+            }
 
-           figure {
-               padding: 1vw 1vw 1vw 1vw;
-           }
+            .link1 {
+               position: relative;
+               top: 17px;
+            }
 
-           .link {
-               display: inline;
-               padding: 30px;
-           }
+            .link2 {
+               position: relative;
+               left: 100px;
+            }
         
        </style>
-     
-
    </head>
 
    <body>
-       
-        <div>
-            <figure>
-                <img width="200" height="130" src="https://static.ohga.it/wp-content/uploads/sites/24/2021/01/iStock-175430569.jpg" alt="giacinto"/>
-            </figure>
-        </div>
+       <article>
+        <br>
+            <img width="220" height="130" style="background-color: rgb(139, 139, 135);"/>
 
-        <article>
-            <div>
-                <h1>GIACINTI</h1>
-            </div>
-           
-            <div>
-                <p>La margherita diploide il cui nome scientifico: Leucanthemum vulgare Lam., o margherita comune è una pianta erbacea della famiglia delle Asteraceae.
-                </p>
-            </div>
-           
+            <h1>Card title</h1>
 
-            <div>
-                <ul>
-                    <li>Margherita bianca</li>
+            <p>
+                <div>Some quick example text to build</div>
+                <div>on the card title and make up the</div> 
+                <div>bulk of the card's content.</div>
+            </p>
 
-                    <li>Mazzo di margherite</li>
-           
-                    <li>Prato di margherite</li>
-                </ul>
-            </div>
-          
-           
-           
-            <footer>
-                <a class="link" href="https://www.google.com" title="Fotografie">Fotografie</a>     
-                <a class="link" href="https://www.google.com" title="Fotografie">Tulipani</a>
-            </footer>
+            <ul>
+                <li>An item</li>
+                <li>A second item</li>
+                <li>A third item</li>
+            </ul>
 
-        </article>
-
-    </body>
-
+            <a href="https://static.ohga.it/wp-content/uploads/sites/24/2021/01/iStock-175430569.jpg" class="link1">Card link</a>
+            <a href="https://static.ohga.it/wp-content/uploads/sites/24/2021/01/iStock-175430569.jpg" class="link2">Another link</a>
+            
+       </article>
+   </body>
 </html>
